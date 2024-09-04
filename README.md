@@ -41,11 +41,11 @@ Optimizer: Adam, learning rate = 0.001<br>
 Loss Function: torch.nn.functional.cross_entropy
 
 ### Training / Validation Loss Curve
-<img src="one-fold validation/loss_curve.png"></img>
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/one-fold%20validation/loss_curve.png?raw=True"></img>
 
 ### Confusion Matrix
-<img src="one-fold validation/confusion matrix_epoch 15"></img>
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/one-fold%20validation/confusion%20matrix_epoch%2015.png?raw=true"></img>
 
 ### Submission Result
 Private Score: 0.81612, Public Score: 0.81612<br>
-<img src="prediction/one-fold validation submission result"></img>
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/prediction/one-fold%20validation%20submission%20result.png?raw=true"></img>
