@@ -26,13 +26,13 @@ etc.
 
 ## $${\color{yellow}One-fold \space Validation \space Version}$$
 ### $${\color{red}Environment}$$
-Python==3.11.9
-torch==2.4.0
-torchvision==0.19.0
-pandas==2.2.2
-seaborn==0.13.2
-matplotlib==3.9.2
-tqdm==4.66.5
+Python==3.11.9<br>
+torch==2.4.0<br>
+torchvision==0.19.0<br>
+pandas==2.2.2<br>
+seaborn==0.13.2<br>
+matplotlib==3.9.2<br>
+tqdm==4.66.5<br>
 
 ### $${\color{red}Data \space Preprocess}$$
 Model: [ResNet50](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html)<br>
@@ -59,15 +59,15 @@ Loss Function: torch.nn.functional.cross_entropy
 
 ## $${\color{yellow}K-fold \space Validation \space Version}$$
 ### $${\color{red}Environment}$$
-Python==3.11.9
-torch==2.4.0
-torchvision==0.19.0
-pandas==2.2.2
-seaborn==0.13.2
-matplotlib==3.9.2
-tqdm==4.66.5
-sklearn==1.5.1
-IPython==8.27.0
+Python==3.11.9<br>
+torch==2.4.0<br>
+torchvision==0.19.0<br>
+pandas==2.2.2<br>
+seaborn==0.13.2<br>
+matplotlib==3.9.2<br>
+tqdm==4.66.5<br>
+sklearn==1.5.1<br>
+IPython==8.27.0<br>
 
 ### $${\color{red}Data \space Preprocess}$$
 Model: [ResNet50](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html)<br>
