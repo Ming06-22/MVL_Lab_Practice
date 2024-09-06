@@ -49,3 +49,29 @@ Loss Function: torch.nn.functional.cross_entropy
 ### Submission Result
 Private Score: 0.81612, Public Score: 0.81612<br>
 <img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/prediction/one-fold%20validation%20submission%20result.png?raw=true"></img>
+
+## K-fold Validation Version
+
+### Data Preprocess
+Model: [ResNet50](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html)<br>
+Device: MPS<br>
+Image Transformation:<br>
+&ensp;&ensp;&ensp;&ensp;ToImage() -> Resize((224, 224)) -> ToDtype(torch.float32, scale = True) -><br>&ensp;&ensp;&ensp;&ensp;Normalize(mean = (0.485, 0.456, 0.406), std = (0.229, 0.224, 0.225))<br>
+
+### Hyperparameter Setting
+Weights: ResNet50_Weights.IMAGENET1K_V2<br>
+Batch Size: 32<br>
+Number of Fold: 5<br>
+Number of Epoch: 15<br>
+Optimizer: Adam, learning rate = 0.001<br>
+Loss Function: torch.nn.functional.cross_entropy
+
+### Training / Validation Setting
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/k-fold%20validation/loss_curve_fold%203.png?raw=True"></img>
+
+### Confusion Matrix
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/k-fold%20validation/confusion%20matrix_fold%203%20epoch%2015.png?raw=true"></img>
+
+### Submission Result
+Private Score: 0.80352, Public Score: 0.80352
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/prediction/k-fold%20validation%20submission%20result.png?raw=true"></img>
