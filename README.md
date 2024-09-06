@@ -70,7 +70,7 @@ Loss Function: torch.nn.functional.cross_entropy
 <img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/k-fold%20validation/loss_curve_fold%203.png?raw=True"></img>
 
 ### Confusion Matrix
-<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/k-fold%20validation/confusion%20matrix_fold%203%20epoch%2015.png?raw=true"></img>
+<img src="https://github.com/Ming06-22/MVL_Lab_Practice/blob/main/k-fold%20validation/confusion%20matrix_fold%203_epoch%2015.png?raw=true"></img>
 
 ### Submission Result
 Private Score: 0.80352, Public Score: 0.80352
