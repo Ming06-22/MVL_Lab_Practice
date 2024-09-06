@@ -1,7 +1,7 @@
-# <span style="color:#ffff00">Plant Seedlings Classification</span>
+# $${\color{yellow}Plant Seedlings Classification}$$
 Source: [https://www.kaggle.com/competitions/plant-seedlings-classification/overview](https://www.kaggle.com/competitions/plant-seedlings-classification/overview)
 
-## <span style="color:#ff0000">Description</span>
+## <span style="color:red;">Description</span>
 Can you differentiate a weed from a crop seedling?
 
 The ability to do so effectively can mean better crop yields and better stewardship of the environment.
